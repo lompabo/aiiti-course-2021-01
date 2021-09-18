@@ -1,0 +1,20 @@
+version: '2.0'
+services:
+  # There is a single service (the tutorial itself) and it's called jupyter
+  jupyter:
+    # All the files for setting up the service image are in the current dir
+    build: .
+    # Port 8888 in the container will be mapped to port 8888 in the host
+    ports:
+    - "8888:8888"
+    # De-comment the following section at development time: it will mount
+    # the current directory in the container file system, rather than simply
+    # copying it. This will ensure that all the edits you do via the Jupyter
+    # interface are actually written in the original file. Similarly, all
+    # changes that you make to modules in the `util` folder will be synced
+    # with the container
+    volumes:
+    - .:/home/jovyan
+
+
+
