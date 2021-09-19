@@ -14,7 +14,7 @@ services:
     # changes that you make to modules in the `util` folder will be synced
     # with the container
     volumes:
-    - .:/home/jovyan
+    - .:/app
 
 
 

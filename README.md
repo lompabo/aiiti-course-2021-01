@@ -13,17 +13,9 @@ This tutorial in particular tackles a simple anomaly detection task via density 
 
 # Accessing the Lecture #
 
-## Using Binder (Easiest) ##
-
-The tutorial is split over multiple (numbered) Jupyter notebooks. _The easiest way to access the tutorial is via Binder_, which enables running the code on a remote server. This is as easy as clicking on the following button:
-
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lompabo/aiiti-01-2021/HEAD)
-
-...And waiting for a while for the environment to load up.
-
 ## Local Execution (Preferred) ##
 
-Using Binder is easy, but it may be slow, and most importantly it does not allow one to save progress or modifications done while experimenting. For this reason _students are encouraged to run all lectures locally_. Doing this will require to:
+Students are strongly encouraged to _run all lectures locally_. Doing this will require to:
 
 * Install Docker, by following the [online instructions](https://docs.docker.com/get-docker/).
 * Install Docker Compose, by following the [online
