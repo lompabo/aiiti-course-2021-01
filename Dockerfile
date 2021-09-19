@@ -63,5 +63,5 @@ WORKDIR ${HOME}
 # Use CMD to specify the starting command
 # NOTE: Binder will override this by explicitily calling a program (jupyter)
 # within the container, and by passing its own list of arguments
-CMD ["jupyter", "notebook", "--port=8888", "--no-browser", \
-     "--ip=0.0.0.0", "--allow-root"]
+# CMD ["jupyter", "notebook", "--port=8888", "--no-browser", \
+#      "--ip=0.0.0.0", "--allow-root"]
